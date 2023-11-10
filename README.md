@@ -1,7 +1,7 @@
 # Лабораторная работа по дисциплине "Компьютерная графика" №5
 
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/YuliaFin/Figure-in-OpenGL.git)
-[![Build, Test](https://github.com/YuliaFin/Lab2_CG/actions/workflows/python-app.yml/badge.svg)](https://github.com/YuliaFin/Lab2_CG/actions/workflows/python-app.yml)
+[![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg)](https://github.com/YuliaFin/Figure-in-OpenGL.git)
+[![Build, Test](https://github.com/YuliaFin/Figure-in-OpenGL/actions/workflows/python-app.yml/badge.svg)](https://github.com/YuliaFin/Figure-in-OpenGL/actions/workflows/python-app.yml)
 [![License: MIT ](https://img.shields.io/badge/License-MIT-violet.svg)](https://opensource.org/licenses/MIT)
 
 Программа реализует отображение пересечения сферы и тетраэдра, где предусмотрена возможность поворота тела вокруг основных осей.
@@ -24,14 +24,18 @@
 * pygame - для создания оконного приложения, отображения графики
 
 ## Описание возможностей:
-Программа позволяет визуализировать пересечение сферы и тетраэдра в трехмерном пространстве. Можно наглядно увидеть, как эти две фигуры пересекаются и взаимодействуют друг с другом.
+Программа позволяет визуализировать пересечение сферы и тетраэдра в трехмерном пространстве. Можно наглядно увидеть, как эти две фигуры пересекаются и взаимодействуют друг с другом. При нажатии клавиш со стрелками влево и вправо фигуры вращаются вокруг оси Y, а при нажатии клавиш со стрелками вверх и вниз фигуры вращаются вокруг оси X.
 
 ## Установка и запуск:
 1. Клонируйте репозиторий
 ```sh
 https://github.com/YuliaFin/Figure-in-OpenGL.git
 ```
-2. Открыть терминал в папке проекта и выполнить следующую команду:
+2. Установите зависимости:
+```sh
+pip install -r requirements.txt
+```
+3. Откройте терминал в папке проекта и выполните следующую команду:
 ```sh
 python main.py
 ```
